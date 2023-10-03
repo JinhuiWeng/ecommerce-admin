@@ -33,7 +33,7 @@ interface storeSwitcherProps extends PopoverTriggerProps {
   items: Store[];
 }
 
-export default function storeSwitcher({
+export default function StoreSwitcher({
   className,
   items = [],
 }: storeSwitcherProps) {
